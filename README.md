@@ -11,6 +11,7 @@ Una **API RESTful + CRUD básica** desarrollada con Spring Boot y PostgreSQL, di
 - **Maven** como gestor de dependencias
 - **PostgreSQL** (usando imagen oficial de Docker, sacada de "Docker Hub")
 - **Docker Compose** para levantar el servicio de la base de datos
+- **DBeaver** para visualizar la base de datos de manera grafica
 
 ---
 
@@ -29,6 +30,4 @@ El proyecto sigue una **organización limpia** de capas, separando responsabilid
 
 1. Asegurate de tener **Docker y Docker Compose** instalados y que tu usuario pertenezca al grupo de docker: `sudo usermod -aG docker <nombre_de_usuario>` (en Linux).
 2. El proyecto se ejecuta corriendo el archivo **ApiSpringPostgresqlDockerApplication** para correr el backend con Spring Boot
-3. El archivo **docker-compose.yml** para levantar PostgreSQL se ejecuta con:
-```bash
-docker compose up -d
+3. El archivo **docker-compose.yml** sirve para levantar PostgreSQL, se ejecuta con `docker compose up -d`
