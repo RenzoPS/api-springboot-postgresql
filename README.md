@@ -4,7 +4,7 @@ Una **API RESTful + CRUD básica** desarrollada con Spring Boot y PostgreSQL, di
 
 ---
 
-## 🛠 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **JDK 17 (Eclipse Temurin)**
 - **Spring Boot**
